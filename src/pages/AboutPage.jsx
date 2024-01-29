@@ -4,9 +4,14 @@ const AboutPage = () => {
     <div className="font-Handlee text-xl flex  bg-slate-200 shadow-2xl mb-10 p-6 rounded max-w-6xl mx-auto mt-44">
       <div>
         <img
-          src="https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          src="https://c0.wallpaperflare.com/preview/1021/100/952/chef-cook-cooked-cooking.jpg"
           alt="img"
           className="rounded-2xl "
+        />
+        <img
+          src="https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt="img"
+          className="rounded-2xl mt-2"
         />
       </div>
       <div className="px-8">

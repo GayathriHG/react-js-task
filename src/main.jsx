@@ -9,6 +9,8 @@ import HomePage from "./pages/HomePage.jsx";
 import RecipePage from "./pages/RecipePage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import RecipeOnePage from "./pages/one.jsx";
+import RecipeTwoPage from "./pages/two.jsx";
+import RecipeThreePage from "./pages/three.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: "/recipeone",
         element: <RecipeOnePage />,
+      },
+      {
+        path: "/recipetwo",
+        element: <RecipeTwoPage />,
+      },
+      {
+        path: "/recipethree",
+        element: <RecipeThreePage />,
       },
     ],
   },
