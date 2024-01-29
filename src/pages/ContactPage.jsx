@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
 const ContactPage = () => {
   return (
-    <div className="bg-slate-200 shadow-2xl mb-10 p-6 rounded max-w-6xl mx-auto mt-60 font-Handlee text-2xl">
-      <div>
+    <div className="bg-slate-200 shadow-2xl mb-10 p-6 rounded max-w-6xl mx-auto mt-44 font-Handlee text-2xl ">
+      <div className="flex space-x-80  ">
+      <div className="mt-4">
         <p>Follow Us</p>
         <div className="flex items-center space-x-4 mt-4">
           <span className="hover:text-pink-700 cursor-pointer">
@@ -59,27 +59,29 @@ const ContactPage = () => {
           </span>
         </div>
       </div>
-      <br></br>
+      {/* img */}
       <div>
-        <p>Sign Up</p>
+<img src="https://onthejob.education/classhome_activities/WebQuests_WQD/My_Business_Rules/img/images/cookbook.gif" alt="gif" className="mx-40 " />
+      </div>
+      </div>
+      <br></br><br></br>
+      <div>
+        <p>Sign Up</p><br></br>
         <input
           type="text"
           placeholder="Full Name"
-          className="px-4 py-1 rounded mt-4 "
-        />
+          className="px-4 py-1 rounded mb-4 w-full outline-none"
+        /><br></br>
         <input
           type="text"
           placeholder="Email ID"
-          className="px-4 py-1 rounded mt-4 m-10"
-        />
-        <button className="bg-pink-800 rounded px-4 py-1 text-white hover:bg-pink-700 cursor-pointer">
+          className="px-4 py-1 rounded mb-4 w-full outline-none"
+        /><br></br>
+        <button className="bg-pink-800 rounded px-4 py-1 w-full text-white hover:bg-pink-700 cursor-pointer">
           Subscribe
         </button>
-        <br></br>
 
-        <Link to={"/"}>
-          <div className="underline">Home</div>
-        </Link>
+        
       </div>
     </div>
   );

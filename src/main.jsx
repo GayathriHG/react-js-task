@@ -8,7 +8,7 @@ import GuestLayout from "./layouts/Guest.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import RecipePage from "./pages/RecipePage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
-import RecipeonePage from "./pages/Recipeone.jsx";
+import RecipeOnePage from "./pages/one.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactPage />,
+      },
+      {
+        path: "/recipeone",
+        element: <RecipeOnePage />,
       },
     ],
   },
