@@ -4,7 +4,6 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Sacramento: "'Sacramento',cursive",
         Handlee: "'Handlee', cursive",
       },
     },
