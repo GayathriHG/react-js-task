@@ -18,10 +18,10 @@ const HomePage = () => {
       <div className=" font-Lora px-20">
         <div className="text-2xl font-semibold " >{post.title}</div>
         <div>{post.body}</div><br></br>
-        <div className="flex gap-3">
+        <div className="flex gap-3 mb-6">
         <div className="bg-gray-400 p-1 rounded">{post.tags[0]}</div>
         <div className="bg-gray-400 p-1 rounded">{post.tags[1]}</div>
-        <div className="bg-gray-400 p-1 rounded">{post.tags[2]}</div>
+        {/* <div className="bg-gray-400 p-1 rounded">{post.tags[2]}</div> */}
         </div>
       </div>
       
