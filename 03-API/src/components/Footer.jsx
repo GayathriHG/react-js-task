@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div className="bg-gray-400 fixed left-0 right-0 py-2 bottom-0 text-center font-Lora">
-      Internship task provided by{" "}
+    <div className="bg-gray-400  py-2 mt-2 text-center font-Lora">
+      Internship task provided by
       <a
         href="https://www.cyberdudenetworks.com/"
         target="blank"

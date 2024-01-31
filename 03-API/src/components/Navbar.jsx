@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <div>
-      <div className="bg-gray-400 px-10 py-6 flex items-center justify-between ">
+      <div className="bg-gray-400 px-10 py-6 flex items-center justify-between mb-2 fixed right-0 left-0 top-0">
         <span className="text-4xl font-semibold font-Lora px-20">JSON-API</span>
         <div className="space-x-10 px-20 font-Lora text-xl ">
           <span className="hover:text-gray-700 cursor-pointer">Home</span>
