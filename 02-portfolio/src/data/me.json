@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Gayathri H G",
+    "title": "Full Stack Engineer",
+    "About": "Hi there, I'm Gayathri H G, a  full stack engineer with a passion for crafting dynamic and user-centric web solutions. With expertise in both front-end and back-end technologies, I thrive in architecting seamless user experiences while ensuring robust functionality under the hood. From designing elegant interfaces to optimizing database performance, I'm dedicated to delivering high-quality, scalable solutions that drive innovation and exceed expectations.",
+    "contact": "8892XXXXXX",
+    "from": "Bangalore Karnataka , India",
+    "Social": [
+      "https://www.linkedin.com/in/gayathri-h-g-2151361ba/",
+      "https://github.com/GayathriHG",
+      "https://www.instagram.com/gayatrigangadhar/"
+    ],
+    "Education": [
+       "BRCE"
+],
+    "Courses": [
+       "Full Stack Development Basics"
+],
+
+    "Skills": [
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "Tailwind CSS",
+      "JavaScript",
+      "React JS",
+      "GitHub"
+    ],
+
+    "Projects": [
+        {
+        "name":"Tailwind css"
+        }
+    ]
+  }
+]
