@@ -4,28 +4,28 @@ const HomePage = () => {
   const myData = me.map((data) => {
     // console.log(me);
     return (
-      <div className="text-yellow-100  font-Poppins text-2xl">
+      <div className=" font-Poppins text-2xl w-full ">
         <div className="flex items-center ">
           <div>
             <img
               src={img}
-              className="rounded-full w-46 h-46"
+              className="rounded-full w-44 h-44"
               alt="Gayathri H G"
             />
           </div>
 
-          <div className="font-Poppins text-lg max-w-2xl px-20">
+          <div className="font-Poppins text-lg max-w-6xl px-24">
             {data.title}
             <br></br>
             {data.About}
           </div>
         </div>
         <br></br>
-        <div className="flex">
-          <div className="bg-purple-800 text-xl font-Poppins">
+        <div className="flex ">
+          <div className=" text-xl font-Poppins">
             <span className="text-2xl ">Skills </span>
 
-            <div className="flex items-center gap-5 py-5">
+            <div className="flex items-center  gap-5 py-5">
               {" "}
               <img
                 src="https://static.vecteezy.com/system/resources/thumbnails/001/416/705/small_2x/html5-emblem-orange-shield-and-white-text-vector.jpg"
@@ -71,7 +71,7 @@ const HomePage = () => {
               {data.Skills[4]}
             </div>
             <div className="flex items-center gap-5 py-5">
-              {" "}
+              
               <img
                 src="https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp"
                 alt="reactjs"
@@ -79,8 +79,8 @@ const HomePage = () => {
               />
               {data.Skills[5]}
             </div>
-            <div className="flex items-center gap-5 py-5">
-              {" "}
+            <div className="flex items-center gap-5  py-5">
+              
               <img
                 src="https://i.pinimg.com/originals/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.png"
                 alt="reactjs"
@@ -89,13 +89,22 @@ const HomePage = () => {
               {data.Skills[6]}
             </div>
           </div>
-          <div></div>
+          <div className="mx-20">Projects</div>
+          <div className="grid grid-cols-3 grid-rows-2 gap-4 mx-10 py-20 ">
+            <div className="bg-[#95A3B3] text-[#2D2E2E]">
+            </div>
+            
+            <div>
+          
+            </div>
+          
+          </div>
         </div>
       </div>
     );
   });
   return (
-    <div className="bg-purple-800 px-20  max-w-6xl py-44 mx-auto">
+    <div className="bg-[#4B4E6D] px-20 text-[#DFD9E2] py-24 mx-1">
       <div>{myData}</div>
     </div>
   );

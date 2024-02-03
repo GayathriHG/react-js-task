@@ -2,7 +2,7 @@
   {
     "name": "Gayathri H G",
     "title": "Full Stack Engineer",
-    "About": "Hi there, I'm Gayathri H G, a  full stack engineer with a passion for crafting dynamic and user-centric web solutions. With expertise in both front-end and back-end technologies, I thrive in architecting seamless user experiences while ensuring robust functionality under the hood. From designing elegant interfaces to optimizing database performance, I'm dedicated to delivering high-quality, scalable solutions that drive innovation and exceed expectations.",
+    "About": " I'm Gayathri H G, a  full stack engineer with a passion for crafting dynamic and user-centric web solutions. With expertise in both front-end and back-end technologies, I thrive in architecting seamless user experiences while ensuring robust functionality under the hood. From designing elegant interfaces to optimizing database performance, I'm dedicated to delivering high-quality, scalable solutions that drive innovation and exceed expectations.",
     "contact": "8892XXXXXX",
     "from": "Bangalore Karnataka , India",
     "Social": [
@@ -28,9 +28,20 @@
     ],
 
     "Projects": [
-        {
-        "name":"Tailwind css"
-        }
+        
+          "Feedback Form",
+          "https://gayathrihg.github.io/cyberdude-challenges/DOM-tasks/01-form/dist/"
+        ,
+        
+         "WhatsApp UI" ,
+         "https://gayathrihg.github.io/WhatsApp_UI_using_TailwindCSS/"
+        ,
+        
+        "Food Blog",
+          "https://food-blog-reactjs.netlify.app/"
+
+        
+        
     ]
   }
 ]
