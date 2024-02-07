@@ -4,7 +4,11 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],  theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        NotoSansJP: "'NotoS-ans-JP', sans-serif"
+      }
+    },
   },
   plugins: [],
 }
