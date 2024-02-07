@@ -60,7 +60,7 @@ const App=()=>{
     </div>
     <div className="bg-slate-200 rounded p-4 font-Poppins mt-2">
         <label className="block">Time</label>
-        <input type="text" placeholder="Time" onChange={handleTime} className="mt-1 outline-none font-Poppins text-slate-600 py-1 rounded w-full p-2"/>
+        <input type="number" placeholder="Time" onChange={handleTime} className="mt-1 outline-none font-Poppins text-slate-600 py-1 rounded w-full p-2"/>
     </div>
     <div className="bg-slate-200 rounded p-4 font-Poppins mt-2">
         <label className="block">Name</label>
@@ -82,7 +82,7 @@ const App=()=>{
               </div>
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="text-white  fill-current w-4"><path d="M12 21L0 9q2.375-2.425 5.488-3.713T12 4q3.425 0 6.525 1.275T24 9zM4.35 10.5q1.675-1.2 3.625-1.85T12 8q2.075 0 4.025.65t3.625 1.85l1.45-1.45q-1.975-1.5-4.3-2.275T12 6q-2.475 0-4.8.775T2.9 9.05z" /></svg>
               <div className='flex text-xs text-white justify-center items-center space-x-1'>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 14 14" className="text-white fill-current w-4"><path stroke="#888888" stroke-linecap="round" stroke-linejoin="round" d="M13.5 5.5A.5.5 0 0 0 13 5h-1V4a1 1 0 0 0-1-1H1.5a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1H11a1 1 0 0 0 1-1V9h1a.5.5 0 0 0 .5-.5Zm-10.25 0v3m3-3v3m3-3v3" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="currentColor" d="M5 17q-.425 0-.712-.288T4 16v-2H3q-.425 0-.712-.288T2 13v-2q0-.425.288-.712T3 10h1V8q0-.425.288-.712T5 7h16q.425 0 .713.288T22 8v8q0 .425-.288.713T21 17zm1-2h7V9H6z"/></svg>
                 <p>{charge}%</p>
               </div>
             </div>
@@ -91,7 +91,7 @@ const App=()=>{
             <li className=" flex items-center justify-center space-x-2 pb-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="text-white fill-current w-5"><path d="m7.85 13l2.85 2.85q.3.3.288.7t-.288.7q-.3.3-.712.313t-.713-.288L4.7 12.7q-.3-.3-.3-.7t.3-.7l4.575-4.575q.3-.3.713-.287t.712.312q.275.3.288.7t-.288.7L7.85 11H19q.425 0 .713.288T20 12q0 .425-.288.713T19 13z" /></svg>
               
-              <img className="rounded-full w-10" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="profile-pic" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12q-1.65 0-2.825-1.175T8 8q0-1.65 1.175-2.825T12 4q1.65 0 2.825 1.175T16 8q0 1.65-1.175 2.825T12 12m-8 6v-.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2v.8q0 .825-.587 1.413T18 20H6q-.825 0-1.412-.587T4 18"/></svg>
               <h4 className="">{name ? name : "Name"}</h4>
               
             </li>
@@ -106,7 +106,7 @@ const App=()=>{
           
           <section className="bg-cover bg-slate-200 rounded-b p-2">
             <div className=''>
-              <div className="flex justify-  p-3 pr-10 bg-blue-400 rounded-r-2xl rounded-t-2xl mr-20 shadow-lg mb-72 ">{Message ? Message : "Hello, how are you ?"}</div>
+              <div className="flex  p-2  bg-blue-400 rounded-r-2xl rounded-t-2xl  shadow-lg mb-72 ">{Message ? Message : ""}</div>
               <div className="flex items-center justify-start space-x-2 pt-4" >
                 <div className="py-2 px-2 w-full rounded-t bg-white flex items-center justify-between">
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256" className=" fill-current w-6 text-slate-400"><path d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24m0 192a88 88 0 1 1 88-88a88.1 88.1 0 0 1-88 88M80 108a12 12 0 1 1 12 12a12 12 0 0 1-12-12m96 0a12 12 0 1 1-12-12a12 12 0 0 1 12 12m-1.07 48c-10.29 17.79-27.4 28-46.93 28s-36.63-10.2-46.92-28a8 8 0 1 1 13.84-8c7.47 12.91 19.21 20 33.08 20s25.61-7.1 33.07-20a8 8 0 0 1 13.86 8" /></svg>
