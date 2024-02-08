@@ -6,7 +6,8 @@ export default {
   ],  theme: {
     extend: {
       fontFamily:{
-        NotoSansJP: "'NotoS-ans-JP', sans-serif"
+        NotoSansJP: "'NotoS-ans-JP', sans-serif",
+        Raleway: "'Raleway', sans-serif"
       }
     },
   },

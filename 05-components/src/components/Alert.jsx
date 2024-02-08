@@ -10,6 +10,7 @@ const Alert = () => {
     <div className="bg-slate-500 text-white py-4 rounded px-4 mx-20 border-2 border-slate-400 my-4">Lite alert</div>
     <div className="bg-slate-800 text-white py-4 rounded px-4 mx-20 border-2 border-slate-400 my-4 ">Dark alert</div>
   </div>
+
   </>;
 };
 

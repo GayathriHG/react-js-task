@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage.jsx";
 import CardPage from "./pages/CardPage.jsx";
 import ButtonPage from "./pages/ButtonPage.jsx";
 import AlertPage from "./pages/AlertPage.jsx";
+import FormPage from "./pages/FormPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/alert",
         element: <AlertPage />,
+      },
+      {
+        path: "/form",
+        element: <FormPage />,
       },
     ],
   },

@@ -1,7 +1,13 @@
 import Alert from "../components/Alert";
 const AlertPage = () => {
+
+  
+  
   return (
     <>
+    
+
+    
       <Alert />
     </>
   );
